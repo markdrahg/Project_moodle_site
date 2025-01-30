@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Plugin Documentation</title>
+    <meta name="description" content="Enhance Moodle with the Job Plugin – a powerful solution for managing job listings, applications, and recruitment within your Moodle platform.">
+    <meta name="keywords" content="Moodle job plugin, Moodle employment module, Moodle recruitment system, job listings for Moodle">
+    <meta name="author" content="Mark Drah">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <nav>
+                <a href="#" class="logo">Job Plugin</a>
+                <ul class="nav-links">
+                    <li><a href="#overview">Overview</a></li>
+                    <li><a href="#installation">Installation</a></li>
+                    <li><a href="#usage">Usage</a></li>
+                    <!-- <li><a href="#faq">FAQ</a></li> -->
+                </ul>
+            </nav>
+        </header>
+        
+        <div class="AnimAndHeader">
+            <div>
+                <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+                <dotlottie-player src="https://lottie.host/54f8de1e-97ee-4632-b6e4-ddc5efa097ae/u7ZNMhbDLd.lottie" background="transparent" speed="1" style="width: 300px; height: 300px" loop autoplay></dotlottie-player>
+            </div>
+            <!-- <div class="buggu_title">
+                THE BUGGY CODE
+
+            </div> -->
+        </div>
+        <main class="main">
+            <section id="overview">
+                <h1>Overview</h1>
+                <p>Welcome to the documentation for the Moodle Job Plugin. This plugin is currently in its alpha stage and is developed using PHP. It was initiated by <strong>Mark Drah</strong>, the founder of <strong>VisionMark</strong>.</p>
+                <p>The plugin's code is open source, encouraging developers to contribute, make improvements, or create personal modifications. The primary goal is to expand its accessibility and functionality across the Moodle environment, fostering collaboration and innovation in the community.</p>
+            </section>
+            
+            <section id="installation">
+                <h2>Installation</h2>
+                <p>Follow these steps to install and configure the Moodle Job Plugin:</p>
+            
+                <!-- Step 1 -->
+                <div class="installation-step">
+                    <div class="text">
+                        <p><strong>Step 1:</strong> Download the plugin's zip file <a href="jobapi.zip">here</a>.</p>
+                        <p>Install the downloaded zip file through the Moodle plugin installation panel.</p>
+                    </div>
+                    <div class="image">
+                        <img src="img/installation.png" alt="Installing page "  class="zoomable">
+                    </div>
+                </div>
+            
+                <!-- Step 2 -->
+                <div class="installation-step">
+                    <div class="text">
+                        <p><strong>Step 2:</strong> After a successful installation, navigate to the following URL on your Moodle page:</p>
+                        <p><code>http://localhost/moodle/local/jobapi/</code></p>
+                        <p>Copy this URL and set it to a URL activity. This will serve as the job listings page.</p>
+                    </div>
+                    <div class="image">
+                        <img src="img/jobapi.png" alt="jobapi page "  class="zoomable">
+                    </div>
+                </div>
+            
+                <!-- Step 3 -->
+                <div class="installation-step">
+                    <div class="text">
+                        <p><strong>Step 3:</strong> Navigate to the admin job control panel using this URL:</p>
+                        <p><code>.../local/jobapi/Jobs_And_Applicants_Control.php</code></p>
+                        <p>Copy this URL and set it to a URL activity. This will serve as the admin job control panel.</p>
+                    </div>
+                    <div class="image">
+                        <img src="img/manager.png" alt="Admin job control panel"  class="zoomable">
+                    </div>
+                </div>
+
+
+                <!-- Modal for Enlarged Image -->
+                <div id="imageModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="modalImage"  class="zoomable">
+                    <div id="caption"></div>
+                </div>
+            </section>
+            
+            
+            <section id="usage">
+                <h2>Usage</h2>
+                <div class="user-section">
+                    <h3>For Users</h3>
+                    <ul>
+                        <li>View available job listings, including open positions and their deadline dates.</li>
+                        <li>Apply for a job by submitting your resume.</li>
+                        <li>Each user can apply to a job only once.</li>
+                    </ul>
+                </div>
+                <div class="admin-section">
+                    <h3>For Administrators</h3>
+                    <ul>
+                        <li>Add, update, and delete job listings.</li>
+                        <li>Download individual or bulk resumes for specific job applications.</li>
+                        <li>Generate and download an Excel sheet of applicants for any job.</li>
+                        <li>Utilize the advanced search feature to query and manage applicant details efficiently.</li>
+                    </ul>
+                </div>
+            </section>
+
+            
+<!--             <section id="faq">
+                <h2>FAQ</h2>
+                <p>Common questions and troubleshooting tips.</p>
+            </section> -->
+        </main>
+        
+        <footer>
+            <p>© 2025 Job Plugin Docs. All rights reserved.</p>
+            <p>
+                <a href="https://github.com/markdrahg/jobapi" target="_blank" rel="noopener noreferrer">GitHub Repo</a> | 
+                <a href="https://www.linkedin.com/in/markdrah/" target="_blank" rel="noopener noreferrer">LinkedIn</a> | 
+                <a href="mailto:neutral520@gmail.com">neutral520@gmail.com</a> | 
+                <span>Contact: +233559054207</span>
+            </p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

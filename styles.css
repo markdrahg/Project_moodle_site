@@ -1,0 +1,339 @@
+/* Ensure the body takes up the full height */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Reset */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Body and Header */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+body {
+  background: url('img/vm.svg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+header {
+    background: #0073e6;
+    color: white;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    pointer-events: auto;
+}
+
+.nav-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+body {
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.AnimAndHeader{
+    display: flex;
+    flex-direction: row
+}
+.buggu_title{
+    font-family: system-ui;
+    font-size: xxx-large;
+    font-weight: bolder;
+    color: #0073e6;
+    margin-top: 9rem;
+    margin-left: 15rem;
+}
+
+
+/* Main Content */
+.main {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    flex: 1;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h1, h2 {
+    color: #0073e6;
+}
+
+
+/* Overview Section */
+#overview {
+    padding: 2rem;
+    background-color: #f0f8ff;
+    border-left: 5px solid #0073e6;
+    margin-bottom: 2rem;
+}
+
+#overview h1 {
+    font-size: 2rem;
+    color: #0073e6;
+}
+
+#overview p {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+
+
+/* Installation Section Styling */
+#installation {
+    padding: 2rem;
+    background-color: #f9f9f9;
+}
+
+#installation h2 {
+    font-size: 2rem;
+    color: #0073e6;
+    margin-bottom: 1rem;
+}
+
+#installation p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.installation-step {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1rem;
+}
+
+.installation-step:last-child {
+    border-bottom: none;
+}
+
+.installation-step .text {
+    flex: 1;
+    padding: 1rem;
+    min-width: 300px;
+}
+
+.installation-step .image {
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+    min-width: 300px;
+}
+
+.installation-step .image img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
+code {
+    background-color: #f0f0f0;
+    padding: 0.2rem 0.5rem;
+    border-radius: 3px;
+    font-family: monospace;
+    color: #333;
+}
+
+/* Modal Styles */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1000;
+    padding-top: 10%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    max-width: 90%;
+    max-height: 80%;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+.modal .close {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.modal .close:hover,
+.modal .close:focus {
+    color: #f00;
+    text-decoration: none;
+}
+
+#caption {
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+
+#usage {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin: 2rem 0;
+}
+
+#usage h2 {
+    font-size: 2rem;
+    color: #0073e6;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#usage h3 {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+    border-bottom: 2px solid #ddd;
+    display: inline-block;
+}
+
+#usage ul {
+    list-style: disc inside;
+    margin: 1rem 0 2rem;
+    padding-left: 1rem;
+}
+
+#usage li {
+    font-size: 1rem;
+    color: #333;
+    margin: 0.5rem 0;
+    line-height: 1.5;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 1rem 0;
+}
+
+footer {
+    background-color: #222;  /* Dark background for contrast */
+    color: #fff;  /* White text for readability */
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #4da6ff;  /* Light blue for links */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+footer a:hover {
+    color: #ffcc00;  /* Gold color on hover */
+}
+
+footer span {
+    font-weight: bold;
+}
+
+
+
+
+/* Laptop, mobile screens */
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .buggu_title {
+    margin-top: 95px;
+    margin-left: 0;
+    }
+
+}
+
+/* Laptop screens > */
+
+@media (max-width: 1024px) {
+    .buggu_title {
+    margin-top: 95px;
+    margin-left: 4px;
+    }
+}
+
+
+
+/* XXL > */
+
+/*@media (max-width: 2560px) {
+    .buggu_title {
+    margin-left: 44rem;
+    }
+}*/
